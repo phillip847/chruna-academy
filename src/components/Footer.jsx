@@ -11,12 +11,12 @@ function Footer() {
     }}>
       <Container>
         <Row className="py-5">
-          <Col lg={4} className="mb-4">
+          <Col lg={4} md={6} className="mb-4">
             <h5 style={{ color: '#FFD700', marginBottom: '20px' }}>Chruna Academy</h5>
             <p className="mb-3">
               Empowering minds through innovative education and personalized learning experiences.
             </p>
-            <div className="d-flex gap-3">
+            <div className="d-flex gap-3 justify-content-center justify-content-md-start">
               <div style={{
                 width: '40px',
                 height: '40px',
@@ -56,7 +56,7 @@ function Footer() {
             </div>
           </Col>
           
-          <Col lg={2} className="mb-4">
+          <Col lg={2} md={6} className="mb-4">
             <h6 style={{ color: '#FFD700', marginBottom: '20px' }}>Quick Links</h6>
             <div className="d-flex flex-column gap-2">
               <LinkContainer to="/">
@@ -74,18 +74,18 @@ function Footer() {
             </div>
           </Col>
           
-          <Col lg={3} className="mb-4">
+          <Col lg={3} md={6} className="mb-4">
             <h6 style={{ color: '#FFD700', marginBottom: '20px' }}>Services</h6>
             <div className="d-flex flex-column gap-2">
-              <span style={{ color: '#ecf0f1' }}>Online Course Design & Development</span>
-              <span style={{ color: '#ecf0f1' }}>Educator & Lecturer Training</span>
-              <span style={{ color: '#ecf0f1' }}>Academic Programme Development</span>
-              <span style={{ color: '#ecf0f1' }}>Assessment & Examination Services</span>
-              <span style={{ color: '#ecf0f1' }}>Education & EdTech Consultancy</span>
+              <span style={{ color: '#ecf0f1', fontSize: '0.9rem' }}>Online Course Design & Development</span>
+              <span style={{ color: '#ecf0f1', fontSize: '0.9rem' }}>Educator & Lecturer Training</span>
+              <span style={{ color: '#ecf0f1', fontSize: '0.9rem' }}>Academic Programme Development</span>
+              <span style={{ color: '#ecf0f1', fontSize: '0.9rem' }}>Assessment & Examination Services</span>
+              <span style={{ color: '#ecf0f1', fontSize: '0.9rem' }}>Education & EdTech Consultancy</span>
             </div>
           </Col>
           
-          <Col lg={3} className="mb-4">
+          <Col lg={3} md={6} className="mb-4">
             <h6 style={{ color: '#FFD700', marginBottom: '20px' }}>Contact Info</h6>
             <div className="d-flex flex-column gap-2">
               <span style={{ color: '#ecf0f1' }}>Windhoek, Namibia</span>

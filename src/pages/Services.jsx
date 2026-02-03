@@ -90,27 +90,27 @@ function Services() {
                   </Card.Text>
                   
                   <Row>
-                    <Col md={8}>
+                    <Col lg={8}>
                       <h5 className="mb-3" style={{ color: '#e74c3c' }}>Key Applications & Services</h5>
                       <ul className="list-unstyled mb-4">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="mb-2 d-flex align-items-start">
                             <span style={{ color: '#27ae60', fontSize: '1.2em', marginRight: '10px' }}>•</span>
-                            <span>{feature}</span>
+                            <span style={{ fontSize: '0.95rem' }}>{feature}</span>
                           </li>
                         ))}
                       </ul>
                     </Col>
-                    <Col md={4}>
+                    <Col lg={4}>
                       <div 
-                        className="p-4 rounded"
+                        className="p-4 rounded mt-3 mt-lg-0"
                         style={{ 
                           background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
                           color: 'white'
                         }}
                       >
                         <h6 className="mb-3">Value to Institutions</h6>
-                        <p className="mb-0" style={{ fontSize: '0.95em', lineHeight: '1.5' }}>
+                        <p className="mb-0" style={{ fontSize: '0.9rem', lineHeight: '1.5' }}>
                           {service.value}
                         </p>
                       </div>
@@ -156,9 +156,10 @@ function Services() {
                         justifyContent: 'center',
                         fontSize: '14px',
                         fontWeight: 'bold',
-                        color: '#333'
+                        color: '#333',
+                        flexShrink: 0
                       }}>🎓</div>
-                      <span>Proven expertise in higher education, EdTech, and AI integration</span>
+                      <span style={{ fontSize: '0.95rem' }}>Proven expertise in higher education, EdTech, and AI integration</span>
                     </div>
                   </Col>
                   <Col md={6} className="mb-3">
@@ -174,9 +175,10 @@ function Services() {
                         justifyContent: 'center',
                         fontSize: '14px',
                         fontWeight: 'bold',
-                        color: '#333'
+                        color: '#333',
+                        flexShrink: 0
                       }}>🌐</div>
-                      <span>Strong alignment with African and international education frameworks</span>
+                      <span style={{ fontSize: '0.95rem' }}>Strong alignment with African and international education frameworks</span>
                     </div>
                   </Col>
                   <Col md={6} className="mb-3">
@@ -192,9 +194,10 @@ function Services() {
                         justifyContent: 'center',
                         fontSize: '14px',
                         fontWeight: 'bold',
-                        color: '#333'
+                        color: '#333',
+                        flexShrink: 0
                       }}>📊</div>
-                      <span>Scalable solutions for universities, colleges, training institutions, and government agencies</span>
+                      <span style={{ fontSize: '0.95rem' }}>Scalable solutions for universities, colleges, training institutions, and government agencies</span>
                     </div>
                   </Col>
                   <Col md={6} className="mb-3">
@@ -210,9 +213,10 @@ function Services() {
                         justifyContent: 'center',
                         fontSize: '14px',
                         fontWeight: 'bold',
-                        color: '#333'
+                        color: '#333',
+                        flexShrink: 0
                       }}>🤝</div>
-                      <span>A strategic partner focused on quality, innovation, and sustainability</span>
+                      <span style={{ fontSize: '0.95rem' }}>A strategic partner focused on quality, innovation, and sustainability</span>
                     </div>
                   </Col>
                 </Row>

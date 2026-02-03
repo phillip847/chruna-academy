@@ -41,7 +41,7 @@ function Contact() {
         backgroundGradient={`linear-gradient(rgba(79, 172, 254, 0.8), rgba(0, 242, 254, 0.8)), url(${happyKidsImage})`}
       />
       
-      <div style={{ paddingTop: '80px', paddingBottom: '80px' }}>
+      <div style={{ paddingTop: '80px', paddingBottom: '80px' }} className="section-padding">
         <Container>
           {showAlert && (
           <Row>
@@ -112,9 +112,9 @@ function Contact() {
                         >
                           <option value="">Select a subject</option>
                           <option value="general">General Inquiry</option>
-                          <option value="tutoring">Tutoring Services</option>
-                          <option value="courses">Online Courses</option>
-                          <option value="test-prep">Test Preparation</option>
+                          <option value="course-design">Online Course Design</option>
+                          <option value="training">Educator Training</option>
+                          <option value="consultancy">EdTech Consultancy</option>
                         </Form.Select>
                       </Form.Group>
                     </Col>
@@ -146,7 +146,7 @@ function Contact() {
         </Row>
 
         <Row className="mt-5">
-          <Col md={4} className="text-center mb-4">
+          <Col lg={4} md={6} className="text-center mb-4">
             <Card className="border-0 h-100 bounce-in">
               <Card.Body className="p-4">
                 <div 
@@ -169,7 +169,7 @@ function Contact() {
             </Card>
           </Col>
           
-          <Col md={4} className="text-center mb-4">
+          <Col lg={4} md={6} className="text-center mb-4">
             <Card className="border-0 h-100 bounce-in" style={{ animationDelay: '0.2s' }}>
               <Card.Body className="p-4">
                 <div 
@@ -192,7 +192,7 @@ function Contact() {
             </Card>
           </Col>
           
-          <Col md={4} className="text-center mb-4">
+          <Col lg={4} md={12} className="text-center mb-4">
             <Card className="border-0 h-100 bounce-in" style={{ animationDelay: '0.4s' }}>
               <Card.Body className="p-4">
                 <div 

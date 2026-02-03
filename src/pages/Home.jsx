@@ -120,6 +120,21 @@ function Home() {
             animation: float 3s ease-in-out infinite;
           }
           
+          @media (max-width: 768px) {
+            .logo-container {
+              width: 280px !important;
+              height: 280px !important;
+              margin-bottom: 30px !important;
+            }
+          }
+          
+          @media (max-width: 576px) {
+            .logo-container {
+              width: 220px !important;
+              height: 220px !important;
+            }
+          }
+          
           @keyframes float {
             0%, 100% {
               transform: translateY(0px);
@@ -160,17 +175,17 @@ function Home() {
         }}></div>
         <Container style={{ position: 'relative', zIndex: 3 }}>
           <Row className="align-items-center">
-            <Col lg={6} className="fade-in">
+            <Col lg={6} className="fade-in order-2 order-lg-1">
               <h1 className="display-3 fw-bold mb-4" style={{ color: '#333' }}>
                 Welcome to <span style={{ color: '#DAA520' }}>Chruna Academy</span>
               </h1>
               <p className="lead mb-4" style={{ fontSize: '1.3rem' }}>
                 Chruna Academy is an African education consultancy specialising in AI for education, LMS development, online learning, research and development, academic tutoring, and institutional capacity building for higher education, TVET, government, and development partners.
               </p>
-              <div className="d-flex gap-3">
+              <div className="d-flex flex-column flex-sm-row gap-3">
                 <LinkContainer to="/services">
                   <Button size="lg" className="btn-primary px-4 py-3">
-                    Explore Courses
+                    Explore Services
                   </Button>
                 </LinkContainer>
                 <LinkContainer to="/contact">
@@ -180,7 +195,7 @@ function Home() {
                 </LinkContainer>
               </div>
             </Col>
-            <Col lg={6} className="text-center bounce-in">
+            <Col lg={6} className="text-center bounce-in order-1 order-lg-2 mb-4 mb-lg-0">
               <div className="logo-container">
                 <div style={{
                   position: 'absolute',
@@ -203,7 +218,7 @@ function Home() {
                   background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8))',
                   borderRadius: '50%'
                 }}></div>
-                <h2 style={{ color: '#fff', fontWeight: 'bold', position: 'relative', zIndex: 2 }}>Excellence in Education</h2>
+                <h2 style={{ color: '#fff', fontWeight: 'bold', position: 'relative', zIndex: 2, fontSize: 'clamp(1.2rem, 4vw, 2rem)', textAlign: 'center', padding: '0 20px' }}>Excellence in Education</h2>
               </div>
             </Col>
           </Row>

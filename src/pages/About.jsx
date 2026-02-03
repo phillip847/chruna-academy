@@ -22,7 +22,7 @@ function About() {
       <div style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <Container>
           <Row className="mb-5">
-          <Col lg={6} className="slide-up">
+          <Col lg={6} className="slide-up mb-4 mb-lg-0">
             <h2 className="h3 mb-4">Our Mission</h2>
             <p className="mb-4">
               At Chruna Academy, we believe that every student has the potential to excel. Our mission is to 
@@ -58,7 +58,7 @@ function About() {
             <h2 className="h3 slide-up">Our Achievements</h2>
           </Col>
           {stats.map((stat, index) => (
-            <Col md={3} className="text-center mb-4" key={index}>
+            <Col lg={3} md={6} className="text-center mb-4" key={index}>
               <Card 
                 className="border-0 h-100 slide-up" 
                 style={{ 
@@ -85,15 +85,15 @@ function About() {
               <Card.Body className="p-5 text-center">
                 <h3 className="mb-4">Why Students Choose Us</h3>
                 <Row>
-                  <Col md={4} className="mb-3">
+                  <Col lg={4} md={6} className="mb-3">
                     <h5>Experienced Faculty</h5>
                     <p>Our instructors are experts in their fields with proven teaching experience.</p>
                   </Col>
-                  <Col md={4} className="mb-3">
+                  <Col lg={4} md={6} className="mb-3">
                     <h5>Flexible Learning</h5>
                     <p>Choose from in-person, online, or hybrid learning options that fit your schedule.</p>
                   </Col>
-                  <Col md={4} className="mb-3">
+                  <Col lg={4} md={12} className="mb-3">
                     <h5>Proven Results</h5>
                     <p>Our students consistently achieve their academic goals and exceed expectations.</p>
                   </Col>

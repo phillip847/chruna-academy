@@ -10,10 +10,11 @@ function HeroSection({ title, subtitle, backgroundGradient = 'linear-gradient(13
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         color: 'white',
-        padding: '250px 0 180px',
+        padding: '200px 0 150px',
         position: 'relative',
         overflow: 'hidden'
       }}
+      className="hero-section"
     >
       <div 
         style={{
@@ -52,6 +53,7 @@ function HeroSection({ title, subtitle, backgroundGradient = 'linear-gradient(13
           borderRadius: '50%',
           zIndex: 1
         }}
+        className="d-none d-md-block"
       />
       <div 
         style={{
@@ -64,6 +66,7 @@ function HeroSection({ title, subtitle, backgroundGradient = 'linear-gradient(13
           borderRadius: '50%',
           zIndex: 1
         }}
+        className="d-none d-md-block"
       />
     </section>
   )
