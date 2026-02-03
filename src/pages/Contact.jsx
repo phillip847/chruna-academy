@@ -164,7 +164,7 @@ function Contact() {
                   <span style={{ fontSize: '1.5rem' }}>📍</span>
                 </div>
                 <h5>Visit Us</h5>
-                <p className="mb-0">123 Education Street<br />Learning City, LC 12345</p>
+                <p className="mb-0">Windhoek, Namibia</p>
               </Card.Body>
             </Card>
           </Col>
@@ -187,7 +187,7 @@ function Contact() {
                   <span style={{ fontSize: '1.5rem' }}>📞</span>
                 </div>
                 <h5>Call Us</h5>
-                <p className="mb-0">(555) 123-4567<br />Mon-Fri 9AM-6PM</p>
+                <p className="mb-0">+264 85 266 3698<br />Mon-Fri 9AM-6PM</p>
               </Card.Body>
             </Card>
           </Col>
@@ -210,7 +210,7 @@ function Contact() {
                   <span style={{ fontSize: '1.5rem' }}>✉️</span>
                 </div>
                 <h5>Email Us</h5>
-                <p className="mb-0">info@chrunaacademy.com<br />support@chrunaacademy.com</p>
+                <p className="mb-0">info@chrunaacademy.org</p>
               </Card.Body>
             </Card>
           </Col>
