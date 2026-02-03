@@ -77,10 +77,11 @@ function Footer() {
           <Col lg={3} className="mb-4">
             <h6 style={{ color: '#FFD700', marginBottom: '20px' }}>Services</h6>
             <div className="d-flex flex-column gap-2">
-              <span style={{ color: '#ecf0f1' }}>Academic Tutoring</span>
-              <span style={{ color: '#ecf0f1' }}>Test Preparation</span>
-              <span style={{ color: '#ecf0f1' }}>Online Courses</span>
-              <span style={{ color: '#ecf0f1' }}>Group Classes</span>
+              <span style={{ color: '#ecf0f1' }}>Online Course Design & Development</span>
+              <span style={{ color: '#ecf0f1' }}>Educator & Lecturer Training</span>
+              <span style={{ color: '#ecf0f1' }}>Academic Programme Development</span>
+              <span style={{ color: '#ecf0f1' }}>Assessment & Examination Services</span>
+              <span style={{ color: '#ecf0f1' }}>Education & EdTech Consultancy</span>
             </div>
           </Col>
           
